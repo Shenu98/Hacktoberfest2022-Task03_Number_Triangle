@@ -1,0 +1,2 @@
+# Hacktoberfest2022-Task03_Number_Triangle
+Number Triangle
