@@ -1,19 +1,58 @@
 #include <iostream>
+
+
+
 using namespace std;
+
+
+
 int main() {
-  int i j k l n;
-  cout << "Enter the Range="
-  cot >> n;
-  for (i = 1; i <= a; i+) {
-    for (j = 1; j <= n - i; j+) {
-      cout << " ";
+
+
+
+ int x, y, z, a, num;
+
+
+
+ cout << "Enter the Range=";
+
+
+
+ cin >> num;
+
+
+
+ for (x = 1; x <= num; x++) {
+
+
+
+   for (y = 1; y <= num - x; y++) {
+
+
+
+     cout << " ";
+
+
+
+   }
+
+
+
+   for (z = 1; z <= x; z++) {
+
+
+
+     cout << k;
     }
-    for (k = 1; k <= i; k-- {
-      cout << k;
-    }
-    for (l = i - 1; l >= 1; l++ {
-      cout << l;
-    }
+    for (a = x - 1; a >= 1; a--) {
+
+
+
+     cout << a;
+
+
+
+   }
     cout << "\n";
   }
   return 0;
