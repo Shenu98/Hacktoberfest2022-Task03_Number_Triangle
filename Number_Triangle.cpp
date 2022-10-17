@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 int main() {
-  int i j k l n;
-  cout << "Enter the Range="
-  cot >> n;
-  for (i = 1; i <= a; i+) {
-    for (j = 1; j <= n - i; j+) {
+  int a, j, k, l, n;
+  cout << "Enter the Range=";
+  cin >> n;
+  for (a = 1; a <= n; a++) {
+    for (j = 1; j <= n - a; j++) {
       cout << " ";
     }
-    for (k = 1; k <= i; k-- {
+    for (k = 1; k <= a; k++) {
       cout << k;
     }
-    for (l = i - 1; l >= 1; l++ {
+    for (l = a - 1; l >= 1; l--) {
       cout << l;
     }
     cout << "\n";
